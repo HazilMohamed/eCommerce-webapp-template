@@ -1,0 +1,215 @@
+.header {
+  width: 100%;
+  padding: 5px;
+}
+
+.main-body {
+  padding: 10px;
+}
+
+.header-top {
+  display: flex;
+}
+
+.header-right, .footer-right{
+  flex: auto;
+  display: flex;
+  direction: rtl;
+  padding: 5px;
+}
+
+.header-right-items {
+  padding: 0px 20px;
+  border: none;
+}
+
+.header-right-items-2, .footer-right-items{
+  padding: 20px;
+}
+
+.header-right-items-3 {
+  border: none;
+  color: white;
+  background-color: black;
+  direction: rtl;
+  padding: 0 20px;
+}
+
+.header-divider, .footer-divider {
+  border: 1px solid grey;
+  border-radius: 1px;
+}
+
+.header-list, .footer-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.header-items, .footer-items{
+  float: left;  
+  padding: 20px;
+  width: 100%;
+}
+
+.header-icon, .footer-icon {
+  padding: 20px 50px;
+}
+
+.header-items-2{
+  border:none;
+  float: left;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.header-items-drop {
+  background-color: orangered;
+  color: black;
+  float: left;
+  padding: 10px;
+  border:none;
+}
+
+.search-field {
+  width: 80%;
+}
+
+.search-box {
+  padding: 10px;
+  width: 90%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+} 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.search-button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 7px;
+}
+
+.show-case-row, .features-row, .brand-logos-row  {
+  text-align: center;
+  display: flex;
+}
+.show-case-col, .features-col, .brand-logo {
+  flex: auto;
+}
+
+.category {
+  padding: 20px 0px;
+}
+
+.brand {
+  padding: 40px 0;
+}
+
+.features-col-header, .category-head, .deals-price {
+  font-weight: bold;
+}
+
+.features-col-sub, .deals-name{
+  color: gray;
+  font-weight: normal;
+  font-size: small;
+}
+
+.images {
+  width: 99%;
+  padding: 10px 0 0 0 ;
+}
+
+.deals-row {
+  padding: 20px;
+  display: flex;
+  border: 0.5px solid gray;
+}
+
+.deals-items {
+  flex:auto;
+  padding: 30px;
+}
+
+.deals-rating > span:hover:before {
+  content: "\2605";
+  position: absolute;
+}
+
+.deals-button {
+  border: none;
+  background-color: gray;
+  color: black;
+  padding: 10px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer-top {
+  background-color: orangered;
+  display: flex;
+}
+
+.subscribe-button {
+  padding: 0px;
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.footer-links {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer-links-col {
+  display: flex;
+}
+
+.footer-link-row {
+  flex:auto;
+  padding: 10px;
+}
+
+.footer-link-row-sub {
+  color: grey;
+  padding: 5px;
+  font-size: sma;
+}
+
+.footer-copyright {
+  color: grey;
+  padding: 10px;
+  font-size: small;
+}
