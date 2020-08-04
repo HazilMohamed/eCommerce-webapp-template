@@ -4,23 +4,35 @@
 }
 
 .main-body {
-  padding: 10px;
+  margin: 0 200px;
 }
 
 .header-top {
   display: flex;
+  margin: 0 200px;
 }
 
 .header-right, .footer-right{
-  flex: auto;
+  flex: 20%;
   display: flex;
   direction: rtl;
-  padding: 5px;
+}
+
+.header-drop-search {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.header-dropdown {
+  border: none;
+  padding: 7px;
+  
 }
 
 .header-right-items {
-  padding: 0px 20px;
+  margin: 0;
   border: none;
+  padding: 0 10px;
 }
 
 .header-right-items-2, .footer-right-items{
@@ -40,19 +52,21 @@
   border-radius: 1px;
 }
 
-.header-list, .footer-list {
-  width: 100%;
-  margin: 0;
+.header-list-1 {
+  margin: 0 200px;
   padding: 0;
   display: flex;
   overflow: hidden;
 }
 
-.header-items, .footer-items{
-  float: left;  
-  padding: 20px;
-  width: 100%;
+.header-list-2 {
+  margin: 0 200px;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
 }
+
+
 
 .header-icon, .footer-icon {
   padding: 20px 50px;
@@ -60,7 +74,6 @@
 
 .header-items-2{
   border:none;
-  float: left;
   padding: 10px;
   background-color: black;
   color: white;
@@ -69,44 +82,17 @@
 .header-items-drop {
   background-color: orangered;
   color: black;
-  float: left;
   padding: 10px;
   border:none;
 }
 
 .search-field {
-  width: 80%;
+  width: 75%;
 }
 
 .search-box {
   padding: 10px;
-  width: 90%;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropbtn {
-  background-color: white;
-  color: black;
-  padding: 10px;
-  font-size: 10px;
-  border: none;
-} 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  width: 75%;
 }
 
 .search-button {
@@ -119,9 +105,33 @@
 .show-case-row, .features-row, .brand-logos-row  {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
 .show-case-col, .features-col, .brand-logo {
-  flex: auto;
+  flex: 20%;
+}
+
+.banner-with-texts {
+  position: relative;
+}
+
+.banner-texts {
+  position: absolute;
+  left:40%;
+  top:50%;
+  font-weight: bolder;
+}
+
+.banner-button {
+  position: absolute;
+  left: 45%;
+  top:65%;
+  border: none;
+  padding: 6px 15px;
+  background-color: orangered;
+  color: white;
 }
 
 .category {
@@ -143,18 +153,20 @@
 }
 
 .images {
-  width: 99%;
-  padding: 10px 0 0 0 ;
+  width: 100%;
+  padding: 10px 0 0 0;
 }
 
 .deals-row {
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   border: 0.5px solid gray;
 }
 
 .deals-items {
-  flex:auto;
+  flex:5;
   padding: 30px;
 }
 
@@ -177,6 +189,20 @@
 .footer-top {
   background-color: orangered;
   display: flex;
+  overflow: hidden;
+}
+
+.footer-items{
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-list {
+  width: 100%;
+  margin: 0 200px;
+  padding: 10px;
+  display: flex;
+  overflow: hidden;
 }
 
 .subscribe-button {
@@ -188,27 +214,31 @@
 }
 
 .footer-links {
-  width: 100%;
   background-color: black;
   color: white;
 }
 
 .footer-links-col {
+  margin: 0 200px;
   display: flex;
+  padding: 50px 0;
+  flex:20%;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .footer-link-row {
-  flex:auto;
-  padding: 10px;
+  flex: 20%;
 }
 
 .footer-link-row-sub {
   color: grey;
-  padding: 5px;
-  font-size: sma;
+  padding: 5px 0;
+  font-size: small;
 }
 
 .footer-copyright {
+  margin: 0 200px;
   color: grey;
   padding: 10px;
   font-size: small;

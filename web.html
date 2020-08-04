@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="web.css">
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="header-top">
         New Offers This Weekend
         <div class="header-right">
@@ -23,79 +23,89 @@
       </div>
       <hr class="header-divider" />
       
-      <div>
-        <div class="header-list">
-          <div class="header-icon">
-            Icon
+      <nav class="header-list-1">
+        <div class="header-icon">
+          Icon
+        </div>
+        <div class="header-drop-search">
+            <select class="header-dropdown">
+              <option href="#">All Categories</option>
+              <option href="#">Link 2</option>
+              <option href="#">Link 3</option>
+            </select>
+          <input type="text" class="search-field" placeholder="Search Products">
+          <button class="search-button">Search</button>
+        </div>
+        <div class="header-right">
+          <div class="header-right-items-2">
+            Profile
           </div>
-          <div class="header-items">
-            <div class="dropdown">
-              <button class="dropbtn">All Categories</button>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div> 
-            <input type="text" class="search-field" placeholder="Search Products">
-            <button class="search-button">Search</button>
+          <div class="header-right-items-2">
+            Refresh
           </div>
-          <div class="header-right">
-            <div class="header-right-items-2">
-              Profile
-            </div>
-            <div class="header-right-items-2">
-              Refresh
-            </div>
-            <div class="header-right-items-2">
-              Whishlist
-            </div>
-            <div class="header-right-items-2">
-              Cart
-            </div>
+          <div class="header-right-items-2">
+            Whishlist
+          </div>
+          <div class="header-right-items-2">
+            Cart
           </div>
         </div>
-      </div>
+      </nav>
       
-      <div style="background-color: black;">
-        <div class="header-list">
+      <nav style="background-color: black; width: 100%;">
+        <div class="header-list-2">
           <button class="header-items-drop">
             Shop By Category
           </button>
-          <button class="header-items-2">
-            Home
-          </button>
-          <button class="header-items-2">
-            Shop
-          </button>
-          <button class="header-items-2">
-            Blog
-          </button>
-          <button class="header-items-2">
-            Media
-          </button>
-          <button class="header-items-2">
-            ShortCode
-          </button>
-          <button class="header-items-2">
-            Documentation
-          </button>
-          <div class="header-right">
-            <button class="header-right-items-3">New User Zone</button>
+            <button class="header-items-2">
+              Shop
+            </button>
+            <button class="header-items-2">
+              Blog
+            </button>
+            <button class="header-items-2">
+              Media
+            </button>
+            <button class="header-items-2">
+              ShortCode
+            </button>
+            <button class="header-items-2">
+              Documentation
+            </button>
+          </ul>
+            <div class="header-right">
+              <button class="header-right-items-3">New User Zone</button>
           </div>
           </div>
-      </div>
-    </div>
+        </nav>
+    </header>
     
     <div class="main-body">
+      
       <div class="show-case">
-        <img src="https://via.placeholder.com/1600x300" style="width: 100%;">
+        <div class="banner-with-texts">
+          <div class="banner-texts">
+            Instyle dressing for great stylings
+          </div>
+          <img src="https://via.placeholder.com/1200x300" style="width: 100%;">
+          <button class="banner-button">Buy Now</button>
+        </div>
         <div class="show-case-row">
           <div class="show-case-col">
-            <img src="https://via.placeholder.com/1600x350" class="images">
+            <div class="banner-with-texts">
+              <div class="banner-texts">
+                Top Fashion Trends
+              </div>
+              <img src="https://via.placeholder.com/1600x350" class="images">
+            </div>
           </div>
           <div class="show-case-col">
-            <img src="https://via.placeholder.com/1600x350" class="images">
+            <div class="banner-with-texts">
+              <div class="banner-texts">
+                Latest Runway Styles
+              </div>
+              <img src="https://via.placeholder.com/1600x350" class="images">
+            </div>
           </div>
         </div>
       </div>
@@ -141,7 +151,7 @@
         </div>
         <div class="deals-row">
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -155,7 +165,7 @@
             <button class="deals-button">View Product</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -169,7 +179,7 @@
             <button class="deals-button">Buy Product</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -183,7 +193,7 @@
             <button class="deals-button">Add to Cart</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -197,7 +207,7 @@
             <button class="deals-button">Add to Cart</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -220,7 +230,7 @@
         </div>
         <div class="deals-row">
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -234,7 +244,7 @@
             <button class="deals-button">View Product</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -248,7 +258,7 @@
             <button class="deals-button">Buy Product</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -262,7 +272,7 @@
             <button class="deals-button">Add to Cart</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -276,7 +286,7 @@
             <button class="deals-button">Add to Cart</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -292,16 +302,24 @@
         </div>
       </div>
 
-      <div>
-        <div class="show-case-row">
-          <div class="show-case-col">
-            <img src="https://via.placeholder.com/1600x350" class="images">
-          </div>
-          <div class="show-case-col">
+      <div class="show-case-row">
+        <div class="show-case-col">
+          <div class="banner-with-texts">
+            <div class="banner-texts">
+              Men's style Trends
+            </div>
             <img src="https://via.placeholder.com/1600x350" class="images">
           </div>
         </div>
-      <div>
+        <div class="show-case-col">
+          <div class="banner-with-texts">
+            <div class="banner-texts">
+              Men's style & fashion
+            </div>
+            <img src="https://via.placeholder.com/1600x350" class="images">
+          </div>
+        </div>
+      </div>
 
       <div class="category">
         <div class="category-head" style="padding: 20px 0px;">
@@ -309,7 +327,7 @@
         </div>
         <div class="deals-row">
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -323,7 +341,7 @@
             <button class="deals-button">View Product</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -337,7 +355,7 @@
             <button class="deals-button">Buy Product</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -351,7 +369,7 @@
             <button class="deals-button">Add to Cart</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -365,7 +383,7 @@
             <button class="deals-button">Add to Cart</button>
           </div>
           <div class="deals-items">
-            <img src="https://via.placeholder.com/300x350">
+            <img src="https://via.placeholder.com/200x350">
             <div class="deals-rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
             </div>
@@ -384,166 +402,175 @@
       <div class="brand">
         <div class="brand-logos-row">
           <div class="brand-logo">
-            <img src="https://via.placeholder.com/300x100">
+            <img src="https://via.placeholder.com/250x100">
           </div>
           <div class="brand-logo">
-            <img src="https://via.placeholder.com/300x100">
+            <img src="https://via.placeholder.com/250x100">
           </div>
           <div class="brand-logo">
-            <img src="https://via.placeholder.com/300x100">
+            <img src="https://via.placeholder.com/250x100">
           </div>
           <div class="brand-logo">
-            <img src="https://via.placeholder.com/300x100">
+            <img src="https://via.placeholder.com/250x100">
           </div>
           <div class="brand-logo">
-            <img src="https://via.placeholder.com/300x100">
+            <img src="https://via.placeholder.com/250x100">
           </div>
         </div>
       </div>
 
       <div class="show-case-row">
         <div class="show-case-col">
-          <img src="https://via.placeholder.com/1600x350" class="images">
+          <div class="banner-with-texts">
+            <div class="banner-texts">
+              The best in Fashion styles
+            </div>
+            <img src="https://via.placeholder.com/1600x350" class="images">
+          </div>
         </div>
         <div class="show-case-col">
-          <img src="https://via.placeholder.com/1600x350" class="images">
-        </div>
-      </div>
-
-      <div class="footer">
-        <div class="footer-top">
-          <div class="footer-list">
-            <div class="footer-icon">
-              Icon
+          <div class="banner-with-texts">
+            <div class="banner-texts">
+              Latest Men's Arrival
             </div>
-            <div class="footer-items">
-                <input type="text" class="search-field">
-                <button class="subscribe-button">Subscribe</button>
-              </div>
-            </div>
-            <div class="footer-right" style="padding: 5px;">
-              <div class="footer-right-items">
-                Fb
-              </div>
-              <div class="footer-right-items">
-                Tw
-              </div>
-              <div class="footer-right-items">
-                In
-              </div>
-              <div class="footer-right-items">
-                Yt
-              </div>
-              <div class="footer-right-items">
-                Ig
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-links">
-          <div class="footer-links-col">
-            <div class="footer-link-row">
-              <div style="font-weight: bold;">
-                Get to Know us
-              </div>
-              <div style="padding: 10px 0;">
-                <div class="footer-link-row-sub">
-                  About Us
-                </div>
-                <div class="footer-link-row-sub">
-                  Careers
-                </div>
-                <div class="footer-link-row-sub">
-                  Press Releases
-                </div>
-                <div class="footer-link-row-sub">
-                  Creybit Careers
-                </div>
-                <div class="footer-link-row-sub">
-                  Gift a Smile
-                </div>
-              </div>
-            </div>
-            <div class="footer-link-row">
-              <div style="font-weight: bold;">
-                Connect with us
-              </div>
-              <div style="padding: 10px 0;">
-                <div class="footer-link-row-sub">
-                  Facebook
-                </div>
-                <div class="footer-link-row-sub">
-                  Twitter
-                </div>
-                <div class="footer-link-row-sub">
-                  Instagram
-                </div>
-                <div class="footer-link-row-sub">
-                  YouTube
-                </div>
-                <div class="footer-link-row-sub">
-                  LinkedIn
-                </div>
-              </div>
-            </div>
-            <div class="footer-link-row">
-              <div style="font-weight: bold;">
-                Earning with us
-              </div>
-              <div style="padding: 10px 0;">
-                <div class="footer-link-row-sub">
-                  Sell on Creybit
-                </div>
-                <div class="footer-link-row-sub">
-                  Become an Affiliate
-                </div>
-                <div class="footer-link-row-sub">
-                  FullFilmnet by Creybit
-                </div>
-                <div class="footer-link-row-sub">
-                  Adrvertise Your Product
-                </div>
-                <div class="footer-link-row-sub">
-                  Creybit On Merchants
-                </div>
-              </div>
-            </div>
-            <div class="footer-link-row">
-              <div style="font-weight: bold;">
-                Let Us help you
-              </div>
-              <div style="padding: 10px 0;">
-                <div class="footer-link-row-sub">
-                  Your Account
-                </div>
-                <div class="footer-link-row-sub">
-                  Returns Centre
-                </div>
-                <div class="footer-link-row-sub">
-                  100% Purchase Protection
-                </div>
-                <div class="footer-link-row-sub">
-                  Cartbit App Download
-                </div>
-                <div class="footer-link-row-sub">
-                  Help
-                </div>
-              </div>
-            </div>
-            <div class="footer-link-row">
-              <div style="font-weight: bold;">
-                Download ou App
-              </div>
-            </div>
-          </div>
-          <hr class="footer-divider" />
-          <div class="footer-copyright">
-            Copyright 2020 Templatemela
+            <img src="https://via.placeholder.com/1600x350" class="images">
           </div>
         </div>
       </div>
-      
+    
     </div>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-list">
+          <div class="footer-icon">
+            Icon
+          </div>
+          <div class="footer-items">
+              <input type="text" class="search-field">
+              <button class="subscribe-button">Subscribe</button>
+          </div>
+          <div class="footer-right" style="padding: 5px;">
+            <div class="footer-right-items">
+              Fb
+            </div>
+            <div class="footer-right-items">
+              Tw
+            </div>
+            <div class="footer-right-items">
+              In
+            </div>
+            <div class="footer-right-items">
+              Yt
+            </div>
+            <div class="footer-right-items">
+              Ig
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-links-col">
+          <div class="footer-link-row">
+            <div style="font-weight: bold;">
+              Get to Know us
+            </div>
+            <div style="padding: 10px 0;">
+              <div class="footer-link-row-sub">
+                About Us
+              </div>
+              <div class="footer-link-row-sub">
+                Careers
+              </div>
+              <div class="footer-link-row-sub">
+                Press Releases
+              </div>
+              <div class="footer-link-row-sub">
+                Creybit Careers
+              </div>
+              <div class="footer-link-row-sub">
+                Gift a Smile
+              </div>
+            </div>
+          </div>
+          <div class="footer-link-row">
+            <div style="font-weight: bold;">
+              Connect with us
+            </div>
+            <div style="padding: 10px 0;">
+              <div class="footer-link-row-sub">
+                Facebook
+              </div>
+              <div class="footer-link-row-sub">
+                Twitter
+              </div>
+              <div class="footer-link-row-sub">
+                Instagram
+              </div>
+              <div class="footer-link-row-sub">
+                YouTube
+              </div>
+              <div class="footer-link-row-sub">
+                LinkedIn
+              </div>
+            </div>
+          </div>
+          <div class="footer-link-row">
+            <div style="font-weight: bold;">
+              Earning with us
+            </div>
+            <div style="padding: 10px 0;">
+              <div class="footer-link-row-sub">
+                Sell on Creybit
+              </div>
+              <div class="footer-link-row-sub">
+                Become an Affiliate
+              </div>
+              <div class="footer-link-row-sub">
+                FullFilmnet by Creybit
+              </div>
+              <div class="footer-link-row-sub">
+                Adrvertise Your Product
+              </div>
+              <div class="footer-link-row-sub">
+                Creybit On Merchants
+              </div>
+            </div>
+          </div>
+          <div class="footer-link-row">
+            <div style="font-weight: bold;">
+              Let Us help you
+            </div>
+            <div style="padding: 10px 0;">
+              <div class="footer-link-row-sub">
+                Your Account
+              </div>
+              <div class="footer-link-row-sub">
+                Returns Centre
+              </div>
+              <div class="footer-link-row-sub">
+                100% Purchase Protection
+              </div>
+              <div class="footer-link-row-sub">
+                Cartbit App Download
+              </div>
+              <div class="footer-link-row-sub">
+                Help
+              </div>
+            </div>
+          </div>
+          <div class="footer-link-row">
+            <div style="font-weight: bold;">
+              Download our App
+            </div>
+          </div>
+        </div>
+        <hr class="footer-divider" />
+        <div class="footer-copyright">
+          Copyright 2020 Templatemela
+        </div>
+      </div>      
+    </footer>
   </body>
 </html>
